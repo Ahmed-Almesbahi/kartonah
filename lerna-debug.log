@@ -1,0 +1,11 @@
+0 silly argv {
+0 silly argv   _: [ 'clean' ],
+0 silly argv   lernaVersion: '3.20.2',
+0 silly argv   '$0': '/usr/local/bin/lerna'
+0 silly argv }
+1 notice cli v3.20.2
+2 verbose rootPath /Users/ahmed/Code/allKartonah/kartonah-maf
+3 info versioning independent
+4 error JSONError: Unexpected token } in JSON at position 207 while parsing near '...escript": "2.1.2",	}}' in packages/common/package.json
+4 error     at module.exports (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:26:19)
+4 error     at parse (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:15:9)

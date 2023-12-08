@@ -1,0 +1,17 @@
+{
+  "name": "kartonah",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "i": "npx lerna bootstrap;npx lerna link",
+    "c": "npx lerna clean"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
